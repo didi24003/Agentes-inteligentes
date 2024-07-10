@@ -1,0 +1,39 @@
+{
+    "host": "gtirouter.dsic.upv.es",
+    "manager": "manager_dbacbac",
+    "manager_password": "secret",
+    "service": "service_dbacbac",
+    "service_password": "secret",
+    "axis": [
+        {
+            "rank": "troopconfi1.MyMedic",
+            "name": "medic_dbacbac",
+            "password": "secret",
+             "amount": 2,
+            "asl": "medic.asl"
+        },
+         {
+            "rank": "troopconfi1.MyField",
+            "name": "fieldop_dbacbac",
+            "password": "secret",
+             "amount": 2,
+            "asl": "fieldop.asl"
+        },
+         {
+            "rank": "troopconfi1.MySoldado",
+            "name": "a_dbacbac",
+            "password": "secret",
+             "amount": 6,
+            "asl": "soldado1.asl"
+        }
+    ],
+     "allied": [
+		{
+            "rank": "BDISoldier",
+            "name": "allied_dbacbac",
+            "password": "secret",
+            "amount": 3,
+            "asl": "bdisoldier.asl"
+        }
+   ]
+  }
